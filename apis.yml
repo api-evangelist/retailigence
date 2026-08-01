@@ -1,7 +1,23 @@
 aid: retailigence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retailigence.png
 name: Retailigence
-description: Retailigence is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Retailigence is a retail technology company that applies artificial intelligence and machine
+  learning to category management and store operations. Its ML Engine powers an AI suite for assortment
+  optimisation, space modelling, store clustering, customer segmentation, and an X-Ray control-tower hub
+  (web and mobile) that tracks and helps remove in-store operational issues. The platform is delivered as
+  a proof-of-concept engagement rather than a public self-serve developer API. Retailigence was surfaced as
+  a portfolio company of 500 Global and added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/retailigence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- Artificial Intelligence
+- Machine Learning
+- Assortment Optimization
+- Retail Analytics
+- Category Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/retailigence-domain-security.yml
 - type: Website
   url: https://retailigence.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
