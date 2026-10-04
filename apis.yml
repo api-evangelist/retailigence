@@ -43,7 +43,7 @@ tags:
 - Company
 - Retail
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Assortment Optimization
 - Retail Analytics
 - Category Management
@@ -55,6 +55,7 @@ tags_raw:
 - Assortment Optimization
 - Retail Analytics
 - Category Management
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
